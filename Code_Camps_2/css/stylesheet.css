@@ -1,0 +1,352 @@
+
+body
+{
+
+	background-color: white;
+	background-attachment : scroll;
+	font-family: Helvetica;
+}
+
+header
+{
+	width: auto;
+}
+
+#logotruc
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 650px;
+	height: 300px;
+}
+
+#cssmenu {
+  min-width: 800px;
+  height: 27px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+}
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: transparent url('images/button.png') top left no-repeat;
+}
+#cssmenu ul li a {
+/*  display: block;*/
+  height: 27px;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Signika Negative', helvetica, 'microsoft sans serif', arial, sans-serif;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#cssmenu ul li a span {
+  display: block;
+  float: left;
+  height: 22px;
+  padding-top: 7px;
+  padding-right: 35px;
+  padding-left: 35px;
+  background: transparent url('images/button.png') top right no-repeat;
+  cursor: pointer;
+}
+/* AQUA HOVER */
+#cssmenu ul li a:hover,
+#cssmenu ul li.active a {
+  background: transparent url('images/aqua.png') top left no-repeat;
+  color: #FFFFFF;
+}
+#cssmenu ul li a:hover span,
+#cssmenu ul li.active a span {
+  background: transparent url('images/aqua.png') top right no-repeat;
+}
+
+#social
+{
+	width: 200px;
+	height: 58px;
+	margin-left: 650px;
+	position: absolute;
+	top: 87px;
+}
+
+#prep_logo
+{
+	width: 160px;
+	height: 94px;
+	position: absolute;
+	top: 70px;
+	margin-left: -223px;
+}
+
+.fb {
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  background: url('./images/fb_logo1.png');
+}
+.fb:hover {
+background-image:url('images/fb_logo2.png');
+}
+
+.twitter {
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  background: url('./images/twitter_logo1.png');
+}
+.twitter:hover {
+background-image:url('images/twitter_logo2.png');
+}
+
+.google {
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  background: url('./images/google_logo1.png');
+}
+.google:hover {
+background-image:url('images/google_logo2.png');
+}
+
+h1
+{
+  text-align: center;
+}
+
+#connexion
+{
+  background-color: #0d7580;
+  float: left;
+  font-family: 'Signika Negative', sans-serif;
+  height: 410px;
+  width: 410px;
+  padding: 50px;
+
+}
+#connexion form
+{
+  margin-top: 105px;
+}
+#connexion form label
+{
+  display:inline-block;
+  width: 150px;
+}
+
+#connexion form input {
+  width: 150px;
+  margin-left: 75px;
+
+}
+
+#connexion form input:last-child{
+  color: white;
+  font-family: 'Signika Negative' , helvetica, 'microsoft sans serif', arial,sans-serif;
+  margin-left: 300px;
+  margin-top: 25px; 
+  padding:5px 20px; 
+  background-color:#43484C; 
+  border-radius:5px;
+  width: 100px;
+}
+
+#connexion form input:last-child:hover{
+      background-color: #ea5b1b;
+      color: #black;
+
+}
+
+#inscription
+{
+  font-family: 'Signika Negative', sans-serif;
+  float: right;
+  
+  background-color: #ea5b1b;
+  height: 410px;
+  width: 410px;
+  padding: 50px;
+}
+
+#inscription form
+{
+  margin-top: 80px;
+}
+
+#inscription form label
+{
+  display: inline-block;
+  width: 150px;
+}
+
+#inscription form input
+{
+  width: 150px;
+  margin-left: 75px;
+}
+
+#inscription form input:last-child{
+  color: white;
+  font-family: 'Signika Negative' , helvetica, 'microsoft sans serif', arial,sans-serif;
+  margin-left: 300px;
+  margin-top: 25px; 
+  padding:5px 20px; 
+  background-color:#43484C; 
+  border-radius:5px;
+  width: 100px;
+}
+
+#inscription form input:last-child:hover{
+      background-color:  #0d7580;
+      color: #black;
+
+}
+
+
+footer
+{
+  width: auto;
+}
+
+#footer
+{
+  background-color: #43484c;
+  font-family: 'Signika Negative', helvetica, 'microsoft sans serif', arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 17px;
+  float: left;
+  min-width: 1382px;
+  height: 175px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 75px;
+}
+
+#banner
+{
+  background-color: #ea5b1b;
+  width: 1422px;
+  height: 20px;
+position: absolute;
+margin-left: -20px;
+margin-top: -20px;
+}
+
+#page
+{
+  width: 1030px;
+  height: 510px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#faq
+{
+  width: 1025px;
+  height: 500px;
+  margin: auto;
+}
+#qui
+{
+  background-color: #0d7580;
+  height: 150px;
+  width: 386px;
+  font-family: 'Signika Negative', sans-serif;
+  float: right;
+  padding: 30px;
+  margin-left: -150px;
+}
+
+#howsubs
+{
+  background-color: #ea5b1b;
+  height: 150px;
+  width: 512px;
+  font-family: 'Signika Negative', sans-serif;
+  float: right;
+  padding: 30px;
+  margin-top: -18px;
+  margin-right: 157px;
+  color: #FFFFFF;
+}
+
+#quand
+{
+  background-color: #0d7580;
+  height: 230px;
+  width: 450px;
+  font-family: 'Signika Negative', sans-serif;
+  float: left;
+  padding: 30px;
+  padding-top: 0px;
+  margin-top: 7px;
+}
+
+#ou
+{
+  background-color: #43484c;
+  height: 200px;
+  width: 448px;
+  font-family: 'Signika Negative', sans-serif;
+  float: left;
+  padding: 30px;
+  margin-left: 7px;
+  margin-top: 7px;
+  color: #FFFFFF;
+}
+
+footer
+{
+  width: auto;
+}
+
+#footer
+{
+  background-color: #43484c;
+  font-family: 'Signika Negative', helvetica, 'microsoft sans serif', arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+  float: left;
+  width: 100%;
+  height: 138px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: -8px;
+}
+
+#footer p
+{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner
+{
+  background-color: #ea5b1b;
+  width: 100%;
+  height: 15px;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+#image
+{
+  padding-left: 50px;
+  padding-top: 20px;
+
+}
